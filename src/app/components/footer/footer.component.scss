@@ -1,0 +1,32 @@
+.copyright{
+    background-color: #ec8c02;
+}
+.copyright p {
+    color: white;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+.copyright .text {
+    font-weight: 600;
+    font-size: 0.715rem;
+    color: #131313;
+    text-align: end;
+}
+.menu{
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.menu a{
+    color: white;
+    font-size: 0.875rem;
+}
+.menu a:hover{
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+.horaire{
+    font-size: 0.875rem;
+    color: white;
+}

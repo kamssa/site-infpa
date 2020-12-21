@@ -1,0 +1,111 @@
+.text-heading{
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* .lien {
+    font-weight: 600;
+} */
+.logo img {
+    height: 3rem;
+    max-width: 211px;
+}
+.navbar-toggler {
+    border-color: transparent !important;
+}
+.navbar-toggler:focus {
+    border-color: transparent !important;
+}
+a:hover {
+    cursor: pointer;
+}
+.lien {
+    color: rgba(0,0,0,0.5);
+    font-weight: 600;
+}
+.lien:hover {
+    //background-color: #5e72e4 !important;
+    font-weight: 600;
+    border-radius: 1.375rem;
+    border-left: none;
+    transition: .5s;
+    //border-color: #5e72e4;
+    color: black !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.cadre {
+/*     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent; */
+}
+.active{
+    border-bottom: 2px solid #007345 !important;
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+    font-size: 12px;
+    
+}
+.sticky1 {
+    background-color: #ffffff;
+    transition: 1.5s;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #047f02;
+    transition: 1.5s;
+    z-index: 2;
+    box-shadow: 0 6px 12px rgba(0,0,0,.15);
+
+    .lien{
+        color: white !important;
+    }
+    .active {
+        border-bottom: 2px solid #444444 !important;
+        box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+    }
+}
+@media screen and (max-width: 450px){
+    .navbar{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 800px){
+    .cadre {
+        position: relative;
+    }
+    .header-mobile{
+        display: none;
+    }
+    .active{
+        width: 75%;
+    }
+    .lien:hover {
+        background-color: transparent;
+        font-weight: normal;
+        border-radius: 0;
+        border-color: transparent;
+        box-shadow: none;
+        color: black;
+    }
+    .navbar-collapse {
+        justify-content: normal !important;
+    }
+}
+@media screen and (max-width: 998px){
+    .header-mobile{
+        display: none;
+    }
+    .dg-word{
+        display: none;
+    }
+}
+/* @media screen and (min-width: 1024px){
+    .navbar-brand{
+        display: none;
+    }
+} */
