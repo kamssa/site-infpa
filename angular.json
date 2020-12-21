@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "infpa"
+  "defaultProject": "infpa",
+  "cli": {
+    "analytics": "ca366b93-7f94-449d-b296-cf201a0fea02"
+  }
 }
